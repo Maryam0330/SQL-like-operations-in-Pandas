@@ -3,13 +3,11 @@ In this repository, I have performed some Pandas operations which are equivalent
 
 Here are some Pandas operations that I have performed which are equivalent to SQL Queries:
 
-- **Rename** : Renamed column names for a better understanding using the `rename()` function in Pandas.
+- **RENAME** : Renamed column names for a better understanding using the `rename()` function in Pandas.
 
-- **Dimensions** : Retrieved dimensions using the `shape` attribute to get the dimensions of the DataFrame in Pandas, which is represented as a tuple containing two values: the number of rows and the number of columns. 
+- **COUNT(*)** : Retrieved dimensions using the `shape` attribute to get the dimensions of the DataFrame in Pandas, which is represented as a tuple containing two values: the number of rows and the number of columns. 
 
-- **Datatypes** : Retrieved datatypes using the `dtypes` attribute to obtain the data types of each column in a DataFrame in Pandas. 
-
-- **Sort** : Sorted values of specific column using the `sort_values()` method in Pandas. 
+- **DESCRIBE** : Retrieved datatypes using the `dtypes` attribute to obtain the data types of each column in a DataFrame in Pandas. 
 
 - **SELECT statement** : Retrieved all the rows and columns of the DataFrame by simply using the name of the DataFrame.  
 
