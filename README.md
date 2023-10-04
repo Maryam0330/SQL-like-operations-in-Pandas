@@ -24,13 +24,13 @@ By using the `&` element-wise logical AND operation retrieved two columns by spe
 
 - **GROUP BY clause** : i) GROUP BY clause with aggregation: Used `groupby()` method to calculate the sum and count of specific columns in the DataFrame by grouping the values in the column. ii) GROUP BY (Count and Descending order) : Used `groupby()` method to calculate the count of specific columns in the DataFrame by grouping the values in the column in descending order by using the parameter `ascending = False` inside the `sort_values()` method.
 
-- **HAVING clause** - Used `group_by()` , `filter()`, `size()` to filter aggregated data, specified condition that involved COUNT(*) function and filtered groups based on those conditions.
+- **HAVING clause** : Used `group_by()` , `filter()`, `size()` to filter aggregated data, specified condition that involved COUNT(*) function and filtered groups based on those conditions.
 
 - **IN and NOT IN** : Used `isin()` method to check if the specific values are present in the column. Whereas to check if the values are not present in column, used ~ and `isin()` method.
 
 - **Top N observations with and without Offset** : Offset is the number of rows to skip from the beginning of the result set. Skipping the first 10 rows and retrieved the next 10 rows using the `nlargest()` and `tail()` method in Pandas. 'nlargest()' returns the top N largest values based on the specified column.
 
-- **UNION and UNION ALL** - Used `concat()` method in Pandas to eliminate and retain duplicates in two DataFrames.
+- **UNION and UNION ALL** : Used `concat()` method in Pandas to eliminate and retain duplicates in two DataFrames.
 
 - **JOIN operation** : Used the `merge()` method in Pandas to 'LEFT JOIN', 'RIGHT JOIN' and 'INNER JOIN' on two DataFrames. Used the `how` parameter in merge() function to specify the type of join. 
 
